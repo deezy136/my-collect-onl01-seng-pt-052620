@@ -3,9 +3,9 @@ def my_collect(array)
   new_array = []
 array.collect do |language|
 
-  language.split(" ").first
-  language.upcase
+  new_array << language.split(" ").first.upcase
+
 end 
-array 
+new_array 
 end 
 
